@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/send-inquiry",
       "dest": "server.js"
+    },
+    {
+      "src": "/",
+      "dest": "index-3.html"
     }
   ]
 }
