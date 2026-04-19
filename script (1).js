@@ -246,3 +246,36 @@ document.addEventListener('mousemove', e => {
     orb.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
   });
 });
+
+// ===== GALLERY LIGHTBOX =====
+document.addEventListener('DOMContentLoaded', () => {
+  const lightbox = document.createElement('div');
+  lightbox.id = 'lightbox';
+  document.body.appendChild(lightbox);
+
+  const lightboxImg = document.createElement('img');
+  lightbox.appendChild(lightboxImg);
+
+  const closeBtn = document.createElement('span');
+  closeBtn.className = 'lightbox-close';
+  closeBtn.innerHTML = '&times;';
+  lightbox.appendChild(closeBtn);
+
+  document.querySelectorAll('.gal-item').forEach(item => {
+    item.addEventListener('click', e => {
+      const img = item.querySelector('.gal-photo');
+      if (img) {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+
+  lightbox.addEventListener('click', e => {
+    if (e.target !== lightboxImg) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+});
