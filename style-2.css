@@ -779,7 +779,7 @@ body {
   font-size: 4rem; flex-shrink: 0;
 }
 .director-text .section-tag { background: rgba(245,166,35,0.2); color: var(--gold-light); }
-.director-text h4 { color: #fff; margin-bottom: 8px; font-size: 1.4rem; font-family: 'Playfair Display', serif;}
+.director-text h4 { color: var(--gold); margin-bottom: 8px; font-size: 1.4rem; font-family: 'Playfair Display', serif;}
 .director-text h3 { color: #fff; font-family: 'Playfair Display', serif; font-size: 1.8rem; margin: 8px 0 16px; }
 .director-text blockquote {
   color: rgba(255,255,255,0.8); font-style: italic;
@@ -930,7 +930,7 @@ body {
   padding: 48px; border-radius: var(--radius);
   margin-top: 20px;
 }
-.small-cta h3 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #fff; }
+.small-cta h3 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--gold); }
 
 /* ===== ADMISSIONS ===== */
 .admissions-layout {
