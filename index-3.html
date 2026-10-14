@@ -6,9 +6,6 @@
 <title>Karuna's 360° Academy | Knowledge Unlocks Potential</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style-2.css">
-<link rel="shortcut icon" href="/images/Logo.png">
-<link rel="icon" type="image/png" href="/images/Logo.png">
-<link rel="apple-touch-icon" href="/images/Logo.png">
 </head>
 <body>
 
@@ -126,7 +123,7 @@
       <div class="section-header">
         <span class="section-tag">Why Choose Us</span>
         <h2>A Complete <span class="gold">360° Experience</span></h2>
-        <p>We go beyond textbooks — shaping personalities</p>
+        <p>We go beyond textbooks — building the whole child</p>
       </div>
       <div class="features-grid">
         <div class="feature-card reveal-up" style="--delay:0s">
@@ -219,14 +216,6 @@
       </div>
       <div class="class-cards">
         <div class="class-card reveal-up" style="--delay:0s">
-          <div class="class-top">Std 11<sup>th</sup> – 12<sup>th</sup><br><small>Science Stream</small></div>
-          <div class="class-body">
-            <div class="class-cat">🔬 Subjects</div>
-            <p>Physics, Chemistry, Maths, Biology, Computer</p>
-          </div>
-          <button class="btn-outline" onclick="showPage('admissions')">Enquire Now</button>
-        </div>
-        <div class="class-card reveal-up" style="--delay:0.15s">
           <div class="class-top">Std 1<sup>st</sup> – 10<sup>th</sup></div>
           <div class="class-body">
             <div class="class-cat">📚 Subjects</div>
@@ -234,7 +223,16 @@
             <div class="class-cat">🌐 Languages</div>
             <p>Hindi, English, Gujarati, Sanskrit</p>
           </div>
-          <button class="btn-outline" onclick="showPage('admissions')">Enquire Now</button>
+          <button class="btn-outline" onclick="showPage('admissions')">Learn More</button>
+        </div>
+        <div class="class-card highlight reveal-up" style="--delay:0.15s">
+          <div class="class-badge">Most Popular</div>
+          <div class="class-top">Std 11<sup>th</sup> – 12<sup>th</sup><br><small>Science Stream</small></div>
+          <div class="class-body">
+            <div class="class-cat">🔬 Subjects</div>
+            <p>Physics, Chemistry, Maths, Biology, Computer</p>
+          </div>
+          <button class="btn-primary" onclick="showPage('admissions')">Learn More</button>
         </div>
         <div class="class-card reveal-up" style="--delay:0.3s">
           <div class="class-top">Std 11<sup>th</sup> – 12<sup>th</sup><br><small>Commerce Stream</small></div>
@@ -242,9 +240,9 @@
             <div class="class-cat">💼 Subjects</div>
             <p>Accounts, Business Studies, Economics, Applied Maths, Statistics</p>
             <div class="class-cat">🎓 Also Offers</div>
-            <p>BBA, BCOM, Foundation</p>
+            <p>BBA, BCOM Foundation</p>
           </div>
-          <button class="btn-outline" onclick="showPage('admissions')">Enquire Now</button>
+          <button class="btn-outline" onclick="showPage('admissions')">Learn More</button>
         </div>
       </div>
     </div>
@@ -375,6 +373,7 @@
         <div class="director-card">
           <div class="director-avatar">👩‍💼</div>
           <div class="director-text">
+            <h4>Karuna Sharma</h4>
             <span class="section-tag">Director's Message</span>
             <h3>A Note from Our Founder</h3>
             <blockquote>"Education is not just about marks — it's about making children fall in love with learning. At Karuna's 360° Academy, every child walks in as a student and walks out as a leader."</blockquote>
@@ -397,7 +396,7 @@
           <div class="tl-item reveal-up" style="--delay:0.1s">
             <div class="tl-dot"></div>
             <div class="tl-content">
-              <h4>Multi-Board</h4>
+              <h4>Multi-Board Affiliation</h4>
               <p>Expanded to offer CBSE, ICSE, GSEB &amp; Cambridge</p>
             </div>
           </div>
@@ -705,11 +704,11 @@
   <section class="section">
     <div class="container">
       <div class="gallery-filter">
+        <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
         <button class="filter-btn" onclick="filterGallery('academics', this)">Academics</button>
         <button class="filter-btn" onclick="filterGallery('activities', this)">Activities</button>
         <button class="filter-btn" onclick="filterGallery('quizathon', this)">Quizathon</button>
         <button class="filter-btn" onclick="filterGallery('results', this)">Results</button>
-        <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
       </div>
       <div class="gallery-grid" id="galleryGrid">
         <!-- Academics -->
@@ -726,8 +725,6 @@
         <div class="gal-item reveal-up activities" style="--delay:0.15s"><div class="gal-inner"><img src="Website Photo/Activities/IMG-20251116-WA0066.jpg" alt="Team Activity" class="gal-photo"><div class="gal-overlay"><p>Team Activity</p></div></div></div>
         <div class="gal-item reveal-up activities wide" style="--delay:0.2s"><div class="gal-inner"><img src="Website Photo/Activities/IMG-20251116-WA0072.jpg" alt="Workshop" class="gal-photo"><div class="gal-overlay"><p>Workshop</p></div></div></div>
         <div class="gal-item reveal-up activities" style="--delay:0.25s"><div class="gal-inner"><img src="Website Photo/Activities/IMG-20251116-WA0105.jpg" alt="Skill Session" class="gal-photo"><div class="gal-overlay"><p>Skill Session</p></div></div></div>
-        <div class="gal-item reveal-up activities" style="--delay:0.3s"><div class="gal-inner"><img src="Website Photo/Activities/WhatsApp Image 2026-04-19 at 16.09.23.jpeg" alt="Student Activity" class="gal-photo"><div class="gal-overlay"><p>Student Activity</p></div></div></div>
-        <div class="gal-item reveal-up activities" style="--delay:0.35s"><div class="gal-inner"><img src="Website Photo/Activities/WhatsApp Image 2026-04-19 at 16.09.23 (1).jpeg" alt="Academy Event" class="gal-photo"><div class="gal-overlay"><p>Academy Event</p></div></div></div>
         <!-- Quizathon -->
         <div class="gal-item reveal-up quizathon" style="--delay:0s"><div class="gal-inner"><img src="Website Photo/QUizathone /IMG-20251116-WA0017.jpg" alt="Quizathon" class="gal-photo"><div class="gal-overlay"><p>Quizathon Round 1</p></div></div></div>
         <div class="gal-item reveal-up quizathon wide" style="--delay:0.05s"><div class="gal-inner"><img src="Website Photo/QUizathone /IMG-20251116-WA0050.jpg" alt="Quizathon" class="gal-photo"><div class="gal-overlay"><p>Quizathon Challenge</p></div></div></div>
@@ -759,11 +756,7 @@
           <div class="contact-cards">
             <div class="contact-card">
               <div class="cc-icon">📞</div>
-              <div><h4>Call Us</h4><p>+91 91734 03493</p></div>
-            </div>
-            <div class="contact-card">
-              <div class="cc-icon">🕒</div>
-              <div><h4>Timings</h4><p>Mon–Sat, 3 PM – 8 PM</p></div>
+              <div><h4>Call Us</h4><p>+91 91734 03493</p><p>Mon–Sat, 3 PM – 8 PM</p></div>
             </div>
             <div class="contact-card">
               <div class="cc-icon">📧</div>
