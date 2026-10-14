@@ -1,0 +1,12 @@
+{
+  "name": "karunas-360-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Karuna's 360° Academy official website",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

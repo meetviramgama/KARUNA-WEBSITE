@@ -1,0 +1,8 @@
+# robots.txt for Karuna's 360° Academy
+# https://www.karunas360academy.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.karunas360academy.com/sitemap.xml
